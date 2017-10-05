@@ -5,11 +5,8 @@ Tested with PayTM 2.1 android SDK (https://github.com/Paytm-Payments/Paytm_Andro
 |:---------------:|:--------------:|
 |     Android     |  Android 4.0+  | 
 
-This plugin was based on this Apache project and has a compatible API.
 
 ## Installation
-
-    // you may also install directly from this repo
     
     cordova plugin add https://github.com/ashutosh-k/CordovaPayTM.git
 
