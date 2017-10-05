@@ -1,6 +1,5 @@
 # CordovaPayTM
-Tested with PayTM 2.1 android SDK
-Supporting platform
+Tested with PayTM 2.1 android SDK (https://github.com/Paytm-Payments/Paytm_Android_App_Kit)
 
 |    Platform     |    OS level    |
 |:---------------:|:--------------:|
