@@ -30,7 +30,7 @@ public class PayTM extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext)
             throws JSONException {
         if (action.equals("startPayment")) {
-            Map<String, String> paramMap = new HashMap<String, String>();
+            HashMap<String, String> paramMap = new HashMap<String, String>();
             paramMap.put("REQUEST_TYPE", args.getString(1));
             paramMap.put("ORDER_ID", args.getString(2));
             paramMap.put("MID", args.getString(3));
@@ -49,7 +49,7 @@ public class PayTM extends CordovaPlugin {
         return false;
     }
 
-    private void startPayment(final Map paramMap,
+    private void startPayment(final HashMap paramMap,
                               final String method,
                               final CallbackContext callbackContext){
 
