@@ -31,7 +31,7 @@ public class PayTM extends CordovaPlugin {
             throws JSONException {
         if (action.equals("startPayment")) {
             HashMap<String, String> paramMap = new HashMap<String, String>();
-            paramMap.put("REQUEST_TYPE", args.getString(1));
+           // paramMap.put("REQUEST_TYPE", args.getString(1));
             paramMap.put("ORDER_ID", args.getString(2));
             paramMap.put("MID", args.getString(3));
             paramMap.put("CUST_ID", args.getString(4));
