@@ -84,7 +84,7 @@ public class PayTM extends CordovaPlugin {
                     e.printStackTrace();
                 }
 		        Log.v("onTransactionSuccess",  paymentResponse.toString());
-                callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, paymentResponse.toString()));
+                callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, inResponse.toString()));
             }
 
             @Override
